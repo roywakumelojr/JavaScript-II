@@ -5,8 +5,16 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
-/* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
+const schoolName = 'Lambda';
+  function favSchool () {
+    const type = 'School';
+    console.log (`My favorite school's name is ${schoolName} ${type}`);
+  }
+  favSchool();
 
+
+
+/* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 // ==== Challenge 2: Implement a "counter maker" function ====
 const counterMaker = () => {
